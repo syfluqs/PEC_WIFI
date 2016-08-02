@@ -4,6 +4,6 @@ A script based on `curl` that prevents auto logout from captive portal on colleg
 
 Place a file named `10-cplogin.sh` in the directory `/etc/NetworkManager/disptacher.d` with the following content
 
-  #!/bin/bash
-  cplogin &
-  exit
+    #!/bin/bash
+    cplogin &
+    exit
